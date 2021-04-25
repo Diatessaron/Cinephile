@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      port: 0
+      database: cinephile
+
+mongock:
+  runner-type: "InitializingBean"
+  change-logs-scan-package:
+    - ru.fazlyev.cinephile.mongock.changelog
